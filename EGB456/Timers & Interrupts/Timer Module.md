@@ -1,0 +1,10 @@
+- 8 Timer Modules for the [[TI Tiva C|Tiva C Series]] (Timer 0, Timer 1 .. To Timer 7)
+	- Have multiple timer counter registers  
+	- Each timer has two up/down counters timers A and B  
+	- 8 bit prescaler  
+	- These are 16 bit but can be concatenated to form 32 or 64 bit counters  
+	- Timer A and Timer B are independently running  
+- Each Timer has control registers  
+	- Timer Clock Source, 2x prescale register, 2x interval load registers, 2x match register  
+- Timer modes  
+	- One-shot/periodic timer, RTC mode, Input Edge-count mode, Input Edge-time mode, PWM mode, wait-for-trigger mode

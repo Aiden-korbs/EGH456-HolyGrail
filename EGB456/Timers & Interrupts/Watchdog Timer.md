@@ -1,0 +1,15 @@
+#### Summary:
+- Two timers with 32 bit down counters and programmable load registers
+	- Down counters basically mean they count backwards from a maximum of: $$2^n -1$$
+	- Example: $$2^{32} - 1$$
+	- Prog Load Regs can be loaded with initial count value for the timer
+- Has a configurable Interrupt 
+	- allows the system or application designer to set up interrupts that are triggered by various conditions or events
+	- with optional NonMaskable Interrupt (NMI)
+		- An NMI is a special type of interrupt that cannot be ignored (masked) by the processor.
+- Watchdog timers are used to regain control when system has failed
+	- ie Software or external device error
+- Source Clock
+	- One module clocked via [[System Clock]]
+	- Other is clocked using an alternate clock
+		- alternate clock can be slower or derived from a different oscillator, which might be more stable or have lower power consumption.
