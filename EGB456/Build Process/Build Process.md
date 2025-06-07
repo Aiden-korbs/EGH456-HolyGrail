@@ -156,7 +156,6 @@ SECTIONS {
   .data : { *(.data) } > SRAM
   .bss  : { *(.bss)  } > SRAM
 }
-```
 
 - Defines memory layout of the microcontroller
     
@@ -258,7 +257,5 @@ printf("goodbye");
     
 - **Slide 37** – Interleaved output example with printf
     
-
-Let me know if you'd like this split into `.md` topic files or exported to another format.
 
 [[EGB456]]

@@ -1,4 +1,3 @@
-	#### Summary:
 
 Object files are the intermediate output of compilation and assembly. They follow the ELF (Executable and Linkable Format) and organize code/data into sections. These sections are processed during linking and relocation to create the final binary.
 

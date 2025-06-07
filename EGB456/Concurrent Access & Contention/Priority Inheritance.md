@@ -30,7 +30,3 @@ if(xSemaphoreTake(xMutex, portMAX_DELAY)) {
     
 - Priority ceiling protocol is an alternative for deadlock prevention (not covered in detail here).
     
-
-![](https://chatgpt.com/c/priority_inheritance_example.png)
-
-[[Mars Pathfinder Case - 1997]]

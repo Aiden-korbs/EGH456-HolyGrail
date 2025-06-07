@@ -15,11 +15,6 @@
     
 - Medium-priority Task pre-empts and runs, causing unbounded delay.
     
-
-### Diagram
-
-![](https://chatgpt.com/c/priority_inversion.png)
-
 ## Types
 
 - **Bounded**: Delay is limited to duration of low-priority task's critical section.

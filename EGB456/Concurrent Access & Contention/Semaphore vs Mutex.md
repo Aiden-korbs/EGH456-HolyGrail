@@ -21,7 +21,4 @@
     
 - Mutexes only work between tasks (not ISRs).
     
-
-![](https://chatgpt.com/c/mutex_vs_semaphore.png)
-
 [[Priority Inversion]]

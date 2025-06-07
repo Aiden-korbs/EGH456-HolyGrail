@@ -7,9 +7,6 @@
     
 - Simple structured protocol—no contention if managed correctly.
     
-
-![](https://chatgpt.com/c/producer_consumer.png)
-
 ## Transition to Concurrent Access
 
 - Concurrent access allows _any_ thread to access _any_ resource at _any_ time.

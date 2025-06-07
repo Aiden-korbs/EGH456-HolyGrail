@@ -1,9 +1,8 @@
 
 [[Concurrent Access Model]]  
-
 ## What is Mutual Exclusion?
 
-- **MUTEX** (MUTual EXclusion): Ensures only one thread accesses a critical section/resource at a time.
+- **MUTEX** (MUTual Exclusion): Ensures only one thread accesses a critical section/resource at a time.
     
 - Required to avoid race conditions and data corruption.
 
@@ -15,11 +14,6 @@
     
 - Use same-priority tasks
     
-
-## Diagram Example
-
-![](https://chatgpt.com/c/mutex_protection.png)
-
 ## Code Example
 
 ```c
@@ -37,4 +31,3 @@ xSemaphoreGive(xMutexHandle);
 ## See Also
 
 [[Semaphore vs Mutex]]  
-[[FreeRTOS Mutexes]]

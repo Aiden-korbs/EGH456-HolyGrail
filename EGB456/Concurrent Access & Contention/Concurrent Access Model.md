@@ -15,10 +15,6 @@
 - **Problems:** Priority inversion, deadlock.
     
 
-## Example Diagram
-
-![](https://chatgpt.com/c/concurrent_access_model.png)
-
 ## Last Lecture Reference
 
 See [[Resource Sharing and Producer-Consumer Model]] for context.
