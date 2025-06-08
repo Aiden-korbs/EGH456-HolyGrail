@@ -22,3 +22,5 @@
 - Usually write register address, then data
     
 - Often used for sensors (register based)
+
+![[Screenshot 2025-06-08 at 11.13.57 am.png]]
