@@ -13,3 +13,5 @@
 xQueueSend();
 xQueueReceive();
 ```
+
+[[Message Queues - Usage Example]]
