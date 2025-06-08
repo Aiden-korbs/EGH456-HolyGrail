@@ -23,6 +23,6 @@
     
 - [[Rate Monotonic Scheduling]]
     
-- [[Earliest Deadline First Scheduling]]
+- [[Earliest Deadline First (EDF) Scheduling]]
     
 - [[Other Scheduling Considerations]]
